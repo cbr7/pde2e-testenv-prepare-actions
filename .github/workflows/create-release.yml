@@ -27,4 +27,4 @@ jobs:
           body: |
             Automatic release created from commit ${{ github.sha }} on the main branch.
           draft: false
-          prerelease: false
+          prerelease: true
